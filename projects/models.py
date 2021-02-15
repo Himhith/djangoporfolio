@@ -14,5 +14,6 @@ class Project(models.Model):
 class Image(models.Model):
     #give a name to the picture by its picture name
     image = models.FilePathField(path='projects/static/projects')
-    pic = models.ImageField(null=True, blank=True, upload_to='projects/images')
-
+    pic = models.ImageField(null=True, blank=True, upload_to='projects/static/projects/images')
+    pic2 = models.ImageField(null=True, blank=True, upload_to='')
+   #name=pic.name

@@ -126,13 +126,15 @@ USE_TZ = True
 
 # STATIC_URL = 'projects/static/'
 
-
-STATIC_URL = '/staticfiles/'
+# STATIC_ROOT='static'
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'staticfiles' ),
+    os.path.join(BASE_DIR, 'static' ),
    # BASE_DIR / "static",
    #  BASE_DIR /'projects/static',
    #  BASE_DIR /'home/static',
 ]
 
-STATIC_ROOT='D:\Documents\\fsfa3456'
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")

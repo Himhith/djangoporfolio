@@ -20,24 +20,22 @@
           </ol>
           <div class="carousel-inner">
                 <div class="carousel-item active">
-                    \{{ project.image }}
-                    \{{ project.image.url }}
-                    {% static project.image.url %}
-                    <img class="d-block w-100" src=" \{{ project.image }}" alt="img" >
-                    <img class="d-block w-100" src=" {% static 'project.image.url' %}" alt="img" >
-                    <img class="d-block w-100" src=" {% static 'projects/2.jpg' %}" alt="img" >
+ static 'project/img/project1.png: {% static 'projects/img/project1.png' %}
+                    <img class="d-block w-100" src=" {% static 'projects/img/project1.png' %}" alt="img" >
+<!--                   <img class="d-block w-100" src="/static/projects/img/project1.png" alt="img" >-->
+project.image:{{project.image}}
+
                 </div>
                 {% for image in project.images.all %}
                 <div class="carousel-item ">
-<!--                   IMAGE {{ image.image }} </br>-->
-                    \{{ image.image }}<br>
-                    {{ image.pic}}
-                    {{ image.pic.url}}
-                    {% static image.pic %}
 
-                    <img class="d-block w-100" src=" {{ image.pic.ulr }}" alt="img">
+
+
+                    <img class="d-block w-100" src="{{image.pic.url}}" alt="img">
                     {% static image.pic.ulr %}
-                    <img class="d-block w-100" src=" {% static 'image.pic' %}" alt="img">
+<!--                    <img class="d-block w-100" src=" /media/projects/static/projects/images/20201102_191200.jpg" alt="img">-->
+
+
                 </div>
                 {% endfor %}
           </div>
