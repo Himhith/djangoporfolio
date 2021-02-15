@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20874903-cda7-46c2-9c15-58951c1a5ddc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nn3XIkUb2VO605uPahKVd20x4b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\templates\a" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\templates" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\static\projects" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\templates" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\templates" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\static\home" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\static\home\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20874903-cda7-46c2-9c15-58951c1a5ddc" name="Default Changelist" comment="" />
+      <created>1612012066041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612012066041</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1046" y="223" key="SettingsEditor" timestamp="1612022419022">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1046" y="223" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1612022419022" />
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613239033494">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1613239033494" />
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613129017072" />
+    <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup" timestamp="1613403337124">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1198" y="270" width="672" height="678" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1613240569118" />
+    <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613403337124" />
+    <state x="901" y="1601" width="670" height="452" key="search.everywhere.popup/449.1440.1366.768/0.0.2048.1152@449.1440.1366.768" timestamp="1613300469246" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/urls.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
