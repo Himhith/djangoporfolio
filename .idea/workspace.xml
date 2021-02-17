@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="20874903-cda7-46c2-9c15-58951c1a5ddc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Przechwytywanie.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoportfo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoportfo/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoportfo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoportfo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/home_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/templates/project_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/project_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/templates/project_detailcopy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/templates/project_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/project_index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +76,12 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1046" y="223" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1612022419022" />
-    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613239033494">
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613584885029">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1613239033494" />
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1613584885029" />
     <state x="721" y="402" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613129017072" />
+    <state x="930" y="1708" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@449.1440.1366.768" timestamp="1613474889147" />
     <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup" timestamp="1613403337124">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>

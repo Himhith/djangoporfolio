@@ -138,3 +138,39 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+
+#bjgjsksbyajxskbs
+
+# EMAIL_HOST = 'smtp-relay.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'michalogorzalek.contact@gmail.com'
+# EMAIL_HOST_PASSWORD = 'bjgjsksbyajxskbs'
+# # EMAIL_HOST_PASSWORD = 'Serwer213'
+# EMAIL_HOST = 'local'
+# EMAIL_PORT = 1025
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_HOST_PASSWORD = 'Serwer213'
+# EMAIL_USE_TLS = True
+
+# EMAIL_HOST = 'smtp-relay.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'michalogorzalek.contact@gmail.com'
+# EMAIL_HOST_PASSWORD = 'bjgjsksbyajxskbs'
+# # EMAIL_HOST_PASSWORD = 'Serwer213'
+# EMAIL_HOST = 'local'
+# EMAIL_PORT = 1025
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_HOST_PASSWORD = 'Serwer213'
+# EMAIL_USE_TLS = True,
+
+EMAIL_HOST = 'smtp.zoho.eu'
+EMAIL_HOST_USER = 'michal.ogorzalek@zohomail.eu'
+EMAIL_HOST_PASSWORD = 'rdMjIFwZN6Xj'
+# EMAIL_HOST_PASSWORD = '?F$g$uF-qRWNb6Y'
+
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

@@ -7,7 +7,7 @@ class Home(models.Model):
 
     body = RichTextField(blank=True, null=True)
     title = models.CharField(max_length=255)
-    profilePicture = models.FilePathField(path='home/static/home/')
+    profilePicture = models.ImageField(null=True, blank=True, upload_to='home/images')
     #TO DO:
     ##PROJECT SLIDER
     ##CONTACT FORM
