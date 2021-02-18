@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'blog',
     'ckeditor',
     'home',
+    'storages', #django-storages package
     # 'django.core.staticfiles',
 
 ]
@@ -124,53 +125,34 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-# STATIC_URL = 'projects/static/'
-
-# STATIC_ROOT='static'
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = 'media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static' ),
-   # BASE_DIR / "static",
-   #  BASE_DIR /'projects/static',
-   #  BASE_DIR /'home/static',
+    # os.path.join(BASE_DIR, 'static' ),
 ]
 
+
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-
-
-#bjgjsksbyajxskbs
-
-# EMAIL_HOST = 'smtp-relay.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'michalogorzalek.contact@gmail.com'
-# EMAIL_HOST_PASSWORD = 'bjgjsksbyajxskbs'
-# # EMAIL_HOST_PASSWORD = 'Serwer213'
-# EMAIL_HOST = 'local'
-# EMAIL_PORT = 1025
-# EMAIL_HOST_USER = ''
-# EMAIL_HOST_PASSWORD = ''
-# EMAIL_HOST_PASSWORD = 'Serwer213'
-# EMAIL_USE_TLS = True
-
-# EMAIL_HOST = 'smtp-relay.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_HOST_USER = 'michalogorzalek.contact@gmail.com'
-# EMAIL_HOST_PASSWORD = 'bjgjsksbyajxskbs'
-# # EMAIL_HOST_PASSWORD = 'Serwer213'
-# EMAIL_HOST = 'local'
-# EMAIL_PORT = 1025
-# EMAIL_HOST_USER = ''
-# EMAIL_HOST_PASSWORD = ''
-# EMAIL_HOST_PASSWORD = 'Serwer213'
-# EMAIL_USE_TLS = True,
-
+#EMAIL FUNCTIONALITY VATIABLES/SETTING
 EMAIL_HOST = 'smtp.zoho.eu'
 EMAIL_HOST_USER = 'michal.ogorzalek@zohomail.eu'
-EMAIL_HOST_PASSWORD = 'rdMjIFwZN6Xj'
-# EMAIL_HOST_PASSWORD = '?F$g$uF-qRWNb6Y'
-
+EMAIL_HOST_PASSWORD = 'rdMjIFwZN6Xj' ### ADD ENV@@@!!!!
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# AWS ENV VARIABLES
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAMES')
+
+AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT = None
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
+# AWS_QUERYSTRING_AUTH=False
+# AWS_S3_SIGNATURE_VERSION= 's3v4'
+AWS_S3_REGION_NAME = 'eu-central-1'
+# AWS_S3_REGION_NAME = 'us-east-1'
