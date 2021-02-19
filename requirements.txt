@@ -22,6 +22,7 @@ numpy==1.19.0
 packaging==20.8
 pandas==1.0.5
 pathlib==1.0.1
+Pillow==8.1.0
 psycopg2==2.8.6
 pyparsing==2.4.7
 PyPDF2==1.26.0
