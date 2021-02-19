@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20874903-cda7-46c2-9c15-58951c1a5ddc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoportfo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoportfo/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,23 +32,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\templates" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\templates" />
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\static\home" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\templates\a" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\templates" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\static\projects" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects" />
-      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\templates" />
-      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\templates" />
-      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\static\home" />
-      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\static\home\img" />
     </key>
   </component>
   <component name="RunManager">
