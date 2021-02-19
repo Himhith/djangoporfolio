@@ -21,7 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&9uua)b-@+a(!7ni0u^u$$ub)=i^4jf$g^2^-#x)wzyof-x+n*'
+#Prodution SECRET_KEY = '&9uua)b-@+a(!7ni0u^u$$ub)=i^4jf$g^2^-#x)wzyof-x+n*'
+SECRET_KEY = os.environ.get('DJANGO_PORTFOLIOWEBSITE_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -130,6 +131,8 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = [
     # os.path.join(BASE_DIR, 'static' ),
+    BASE_DIR / 'djangoportfo/static',
+
 ]
 
 
@@ -137,7 +140,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 #EMAIL FUNCTIONALITY VATIABLES/SETTING
 EMAIL_HOST = 'smtp.zoho.eu'
 EMAIL_HOST_USER = 'michal.ogorzalek@zohomail.eu'
-EMAIL_HOST_PASSWORD = 'rdMjIFwZN6Xj' ### ADD ENV@@@!!!!
+EMAIL_HOST_PASSWORD = os.environ.get('ZOHO_EMAIL_HOST_PASSWORD') #app password from email client
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

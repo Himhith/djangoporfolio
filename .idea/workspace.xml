@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="20874903-cda7-46c2-9c15-58951c1a5ddc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoportfo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoportfo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoportfo/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/djangoportfo/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoportfo/templates/baseOLD.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/envvariablestest.py" beforeDir="false" afterPath="$PROJECT_DIR$/envvariablestest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,17 +120,17 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1046" y="223" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1612022419022" />
-    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613668857351">
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613730022325">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="721" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1613639713026" />
-    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613668857351" />
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613730022325" />
     <state x="930" y="1708" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@449.1440.1366.768" timestamp="1613474889147" />
-    <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup" timestamp="1613403337124">
+    <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup" timestamp="1613729297241">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1198" y="270" width="672" height="678" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1613240569118" />
-    <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613403337124" />
+    <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613729297241" />
     <state x="901" y="1601" width="670" height="452" key="search.everywhere.popup/449.1440.1366.768/0.0.2048.1152@449.1440.1366.768" timestamp="1613300469246" />
   </component>
   <component name="XDebuggerManager">
