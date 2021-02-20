@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #Prodution SECRET_KEY = '&9uua)b-@+a(!7ni0u^u$$ub)=i^4jf$g^2^-#x)wzyof-x+n*'
-# SECRET_KEY = os.environ.get('DJANGO_PORTFOLIOWEBSITE_SECRET_KEY')
+SECRET_KEY = os.environ.get('DJANGO_PORTFOLIOWEBSITE_SECRET_KEY')
 # z$x$e7zz67m(wu4o3b_s9ri0@ynd-4(_e6l3%80_l)%al%@nq_
-SECRET_KEY ="z$x$e7zz67m(wu4o3b_s9ri0@ynd-4(_e6l3%80_l)%al%@nq_"
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -153,9 +153,10 @@ EMAIL_USE_TLS = True
 # AWS ENV VARIABLES
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME = 'awswebsitedata'
-
-AWS_S3_FILE_OVERWRITE = False
+# AWS_STORAGE_BUCKET_NAME = 'her'
+# AWS_STORAGE_BUCKET_NAME = 'awswebsitedata'
+# AWS_S3_FILE_OVERWRITE = False
+AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
 # AWS_DEFAULT = None
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
