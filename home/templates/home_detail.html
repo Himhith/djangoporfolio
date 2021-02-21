@@ -5,7 +5,7 @@
 
 {% block page_content %}
 <div class="row p-3 ">
-<div class="col-md-5 p-7 offset-md-6 "><h1>Good day sir!  </h1></div>
+<div class="col-md-5 p-7 offset-md-6 "><h1>{{ home.title }}  </h1></div>
 </div>
 <div class="row p-3 ">
     <div class="min-hw-100 col-sm-2 ">
@@ -14,7 +14,7 @@
           data-holder-rendered="true" width="200" height="200">
     </div>
     <div class="col-sm offset-sm-1 bg-light p-3 rounded">
-        {{ home.title }} {{ home.body | safe }}
+         {{ home.body | safe }}
 
 
         <!--       {# {% content.body| default: lorem %}#}-->
@@ -26,7 +26,7 @@
 <!--    <div class="col-md-12 bg-light p-3 rounded">-->
 <!--       <h3> PROJECTS SLIDER</h3>-->
 <!--    </div>-->
-<!--</div>-->
+</div>
 <div class="row p-3 d-flex justify-content-center ">
 
            <div class="container contact-form">
