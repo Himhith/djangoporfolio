@@ -25,11 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 #Prodution SECRET_KEY = '&9uua)b-@+a(!7ni0u^u$$ub)=i^4jf$g^2^-#x)wzyof-x+n*'
 SECRET_KEY = os.environ.get('DJANGO_PORTFOLIOWEBSITE_SECRET_KEY')
-# z$x$e7zz67m(wu4o3b_s9ri0@ynd-4(_e6l3%80_l)%al%@nq_
+
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['.herokuapp.com',
                  'micogo.herokuapp.com']

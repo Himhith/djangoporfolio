@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="20874903-cda7-46c2-9c15-58951c1a5ddc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoportfo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoportfo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\home\templates\a" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\templates" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects\static\projects" />
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo\projects" />
-      <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\02 projekty programowanie\05 DjangoPortfo" />
@@ -122,10 +122,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1046" y="223" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1612022419022" />
-    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613813209531">
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1613903014960">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1613813209531" />
+    <state x="721" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1613903014960" />
     <state x="721" y="402" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@0.0.2048.1152" timestamp="1613730022325" />
     <state x="930" y="1708" key="com.intellij.ide.util.TipDialog/449.1440.1366.768/0.0.2048.1152@449.1440.1366.768" timestamp="1613474889147" />
     <state x="678" y="242" width="1005" height="678" key="search.everywhere.popup" timestamp="1613729297241">
