@@ -1,7 +1,15 @@
 # djangoporfolio
 
-deployed under: micogo.herokuapp.com/home 
+deployed under: https://micogo.herokuapp.com/home/
 
-Portfolio website for project presentation. 
+## about 
 
 Webiste created to show skill to deploy and run webpage in Django. 
+
+## functionlities:
+
+* fully admin supported
+* mail handling
+* comments
+* adding posts, projects, about text, profile pic, projects picture from admin panel
+* Image database on AWS S3 
